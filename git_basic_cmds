@@ -18,15 +18,15 @@ user.name "Sachin Shinde"   - To Set user Name to Git Commits
 $git config --global 
 user.email "sachin@gmail.com"   - To Set user Email to Git Commits
 
-git config --global --list  - display all the global Git configuration settings on our system
+$git config --global --list  - display all the global Git configuration settings on our system
 
-ls 							- This will list the files and directories in the current directory.
+$ls 							- This will list the files and directories in the current directory.
 
-ls -l                       - Displays detailed information about each file and directory (permissions, owner, size, modification date, etc.).
+$ls -l                       - Displays detailed information about each file and directory (permissions, owner, size, modification date, etc.).
 
-ls -a						- ls -a (List All Files, Including Hidden Files)
+$ls -a						- ls -a (List All Files, Including Hidden Files)
 
-ls -la						- Combines both -l and -a to show a detailed list of all files, including hidden ones.
+$ls -la						- Combines both -l and -a to show a detailed list of all files, including hidden ones.
 
 Admin@DESKTOP-7T8QQKJ MINGW64 /d/Sachin
 $ ls -la
