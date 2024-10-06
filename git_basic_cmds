@@ -68,6 +68,7 @@ $ clear						- to Clear Terminal
 git Session 2 
 
 $ git remote add origin https://github.com/sachishindepatil/git-demo.git
+							-adding remote repository
 
 
 $git remote -v              -show remote repository
