@@ -1,0 +1,75 @@
+Git Session 1                   
+
+$git -v 					- Git Version
+
+$git help or git -h			- Showing Commands 
+
+$git help config			- Its opening git Manual on Web
+
+$pwd 						- Its Shows Current Working Directory
+
+$cd d: or cd c: 			- To Change Drive 
+
+$git init                   - The git init command is used to create a new Git repository.               
+
+$git config --global 
+user.name "Sachin Shinde"   - To Set user Name to Git Commits
+
+$git config --global 
+user.email "sachin@gmail.com"   - To Set user Email to Git Commits
+
+git config --global --list  - display all the global Git configuration settings on our system
+
+ls 							- This will list the files and directories in the current directory.
+
+ls -l                       - Displays detailed information about each file and directory (permissions, owner, size, modification date, etc.).
+
+ls -a						- ls -a (List All Files, Including Hidden Files)
+
+ls -la						- Combines both -l and -a to show a detailed list of all files, including hidden ones.
+
+Admin@DESKTOP-7T8QQKJ MINGW64 /d/Sachin
+$ ls -la
+total 12
+drwxr-xr-x 1 Admin 197121 0 Sep 15 13:01  ./
+drwxr-xr-x 1 Admin 197121 0 Sep 15 13:38  ../
+drwxr-xr-x 1 Admin 197121 0 Sep 14 18:36 'Git PDF'/
+drwxr-xr-x 1 Admin 197121 0 Sep 15 13:03  git_projects/
+drwxr-xr-x 1 Admin 197121 0 Sep 14 18:26  javascript_lectures/
+
+
+this one dot is current directory
+two dots are parent directory
+
+$git status   				-to display the current state of the working directory and the staging area.
+
+$git add						-In git to stage one file or track file use this
+
+$git add --all				-In git to Stage Multiple files or Track files Use this
+
+
+$git commit -m "message"     - This command creates a new commit in the repository, 
+							  which takes all the changes in the staging area and records them as a new snapshot of the project.
+
+
+
+touch file_name				- creates New file in Our directory
+$ touch README.txt
+
+nano 						- to Write in that file
+$ nano README.txt
+
+$ git log					- to display the commit history of a Git repository.
+
+$ clear						- to Clear Terminal
+
+
+
+git Session 2 
+
+$ git remote add origin https://github.com/sachishindepatil/git-demo.git
+
+
+$git remote -v              -show remote repository
+
+
